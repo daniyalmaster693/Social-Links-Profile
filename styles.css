@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap");
+
+body {
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.card {
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 44px;
+  height: 439px;
+}
+
+.profilepicture img {
+  border-radius: 50%;
+  height: 65px;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: -4px;
+}
+
+.location {
+  color: #c5f82a;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.profession {
+  font-size: 11px;
+  font-weight: 300;
+  color: #e5e5e5;
+  margin-bottom: 19px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  width: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.github {
+  background-color: #333333;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: "Inter";
+  border-radius: 8px;
+  text-align: center;
+  width: 327px;
+}
+
+.github:hover {
+  background-color: #c4f82a;
+  color: black;
+}
+
+.frontendmentor {
+  background-color: #333333;
+  font-weight: 600;
+  font-family: "Inter";
+  color: #fbfbfb;
+  border-radius: 8px;
+  text-align: center;
+  width: 327px;
+}
+
+.frontendmentor:hover {
+  background-color: #c4f82a;
+  color: black;
+}
+
+.linkedIn {
+  background-color: #333333;
+  color: #fbfbfb;
+  font-family: "Inter";
+  font-weight: 600;
+  border-radius: 8px;
+  text-align: center;
+  width: 327px;
+}
+
+.linkedIn:hover {
+  background-color: #c4f82a;
+  color: black;
+}
+
+.twitter {
+  background-color: #333333;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: "Inter";
+  border-radius: 8px;
+  text-align: center;
+  width: 327px;
+}
+
+.twitter:hover {
+  background-color: #c4f82a;
+  color: black;
+}
+
+.instagram {
+  background-color: #333333;
+  color: #fbfbfb;
+  font-weight: 600;
+  font-family: "Inter";
+  border-radius: 8px;
+  text-align: center;
+  width: 327px;
+}
+
+.instagram:hover {
+  background-color: #c4f82a;
+  color: black;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 11px;
+  margin-bottom: 4px;
+  color: #a0a0a0;
+}
+
+a:link {
+  color: #a0a0a0;
+}
+
+a:visited {
+  color: #a0a0a0;
+}
